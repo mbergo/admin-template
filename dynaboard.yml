@@ -1,20 +1,26 @@
 type: com.dynaboard/project
-name: Admin Template Project
+name: Admin Dashboard Template
 runtimeVersion: 1.0.0  # Replace with the correct version compatible with Dynaboard
 nodes:
-  node1: 
-    id: node1
-    type: component
+  # Example of a page node
+  dashboardPage: 
+    id: dashboardPage
+    type: page
     properties: 
-      name: "Dashboard"
-  node2: 
-    id: node2
-    type: component
-    properties: 
-      name: "User Management"
-  node3: 
-    id: node3
-    type: component
-    properties: 
-      name: "Settings"
-description: "An admin dashboard template with features like user management and settings."
+      title: "Dashboard"
+      url: "https://github.com/mbergo/admin-template/blob/main/admin/html/index_v3.html"
+    assets:
+      - asset1
+      - asset2
+  # Example of an asset node
+  asset1:
+    id: asset1
+    type: asset
+    properties:
+      src: "https://github.com/mbergo/admin-template/tree/main/admin/assets"
+  asset2:
+    id: asset2
+    type: asset
+    properties:
+      src: "https://github.com/mbergo/admin-template/tree/main/admin/react"
+description: "A comprehensive admin dashboard template with multiple pages and assets."
