@@ -1,0 +1,20 @@
+type: com.dynaboard/project
+name: Admin Template Project
+runtimeVersion: 1.0.0  # Replace with the correct version compatible with Dynaboard
+nodes:
+  node1: 
+    id: node1
+    type: component
+    properties: 
+      name: "Dashboard"
+  node2: 
+    id: node2
+    type: component
+    properties: 
+      name: "User Management"
+  node3: 
+    id: node3
+    type: component
+    properties: 
+      name: "Settings"
+description: "An admin dashboard template with features like user management and settings."
